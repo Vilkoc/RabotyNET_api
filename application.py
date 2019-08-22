@@ -11,15 +11,15 @@ class Application():
     def __init__(self):
         self.session = requests.Session()
 
-    def authentication(self, url, login, password):
-        request = self.session.post(url, auth=(login, password))
+    def authentication(self, endpoint, login, password):
+        request = self.session.post(MAIN_URL+endpoint, auth=(login, password))
         if request.status_code == 200:
             return self.session
         raise Exception("Status code isn't 200")
 
-    def get(self, endpoint, data='', headers=HEADERS):
+    def get(self, endpoint, data='', ):
         converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
+        request = self.session.get(MAIN_URL+endpoint, data=converted_data)
         return request
 
     def post(self, endpoint, data='', headers=HEADERS):
