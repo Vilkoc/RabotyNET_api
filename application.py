@@ -11,6 +11,12 @@ class Application():
     def __init__(self):
         self.session = requests.Session()
 
+    def authentication(self, url, login, password):
+        request = self.session.post(url, auth=(login, password))
+        if request.status_code == 200:
+            return self.session
+        raise Exception("Status code isn't 200")
+
     def get(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
         request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
@@ -26,3 +32,7 @@ class Application():
         request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
         return request
 
+    def delete(self, endpoint, data='', headers=HEADERS):
+        converted_data = json.dumps(data)
+        request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
+        return request
