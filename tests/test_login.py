@@ -1,14 +1,13 @@
-import requests
 import pytest
-import json
 from data_tests.auth import USERNAME_SIGNUP, PASSWORD, EMAIL_SIGNUP, FROM_SIGNUP
 import allure
+import json
 from utilities.func import login
 from utilities.db import change_varification_link, wait_user_update
 
 TOKEN = "3e83667c-c59c-4fda-aa7a-a47346a3cd6a"
 
-# @pytest.mark.skip
+@pytest.mark.skip
 @allure.feature('Sign In')
 @pytest.mark.parametrize('user, password, expected', [
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
@@ -25,23 +24,7 @@ def test_login(app, user, password, expected):
     assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get('http://localhost:8080/RabotyNET/logout')
 
-@pytest.mark.skip
-def test_sign_up_begin():
-    session = requests.Session()
-    headers = {'content-type': 'application/json'}
-    data_sent = {
-      "login": USERNAME_SIGNUP,
-      "matchingPassword": PASSWORD,
-      "password": PASSWORD
-    }
-
-    response = session.post('http://localhost:8080/RabotyNET/users/auth', data=json.dumps(data_sent), headers=headers)
-
-    assert response.status_code == 200, "Wrong status code"
-    data_received = response.json()
-    assert data_received['login'] == data_sent['login'], "Wrong username"
-
-def test_sign_up_begin1(app):
+def test_sign_up_begin(app):
     data_sent = {
       "login": USERNAME_SIGNUP,
       "matchingPassword": PASSWORD,
@@ -55,14 +38,32 @@ def test_sign_up_begin1(app):
     assert data_received['login'] == data_sent['login'], "Wrong username"
 
 @pytest.mark.skip
-def test_sign_up_end():
-    session = requests.Session()
-    data_sent = {"token": TOKEN}
-    headers = {'content-type': 'application/json'}
+def test_sign_up_end(app):
+    # session = requests.Session()
+    data = {'token': TOKEN}
 
-    response = session.get('http://localhost:8080/RabotyNET/users/auth/confirm', data=json.dumps(data_sent), headers=headers)
+    response = app.get('users/auth/confirm', data=data)
 
     print(response.text)
     assert response.status_code == 200, "Wrong status code"
     data_received = response.json()
     print(data_received)
+
+def test_sign_up_end1(app):
+    session = app.session
+    # data_sent = {"token": TOKEN}
+    data_sent = "token=" + TOKEN
+    headers = {'content-type': 'application/json'}
+
+    # response = session.get('http://localhost:8080/RabotyNET/users/auth/confirm', data=json.dumps(data_sent), headers=headers)
+    response = session.get('http://localhost:8080/RabotyNET/users/auth/confirm', params=data_sent)
+
+    print(response.text)
+    assert response.status_code == 200, "Wrong status code"
+    data_received = response.json()
+    print(data_received)
+
+
+def test_1(app):
+    # app.
+    pass

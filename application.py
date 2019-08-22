@@ -19,7 +19,7 @@ class Application():
 
     def get(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
+        request = self.session.get(MAIN_URL+endpoint, params=converted_data, headers=headers)
         return request
 
     def post(self, endpoint, data='', headers=HEADERS):
