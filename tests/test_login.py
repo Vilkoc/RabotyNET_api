@@ -2,14 +2,14 @@ import requests
 import pytest
 import json
 from data_tests.auth import USERNAME_SIGNUP, PASSWORD, EMAIL_SIGNUP, FROM_SIGNUP
-import allure
+# import allure
 from utilities.func import login
 from utilities.db import change_varification_link, wait_user_update
 
 TOKEN = "3e83667c-c59c-4fda-aa7a-a47346a3cd6a"
 
-# @pytest.mark.skip
-@allure.feature('Sign In')
+@pytest.mark.skip
+# @allure.feature('Sign In')
 @pytest.mark.parametrize('user, password, expected', [
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
     ('user@gmail.com', 'user', 'ROLE_USER'),
