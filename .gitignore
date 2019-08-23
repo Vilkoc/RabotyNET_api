@@ -1,0 +1,9 @@
+.idea/
+data_tests/
+results/
+tests/.pytest_cache
+tests/__init__
+
+
+
+

@@ -1,4 +1,6 @@
+"""This module allows changing data in user resume"""
 import requests
+import allure
 
 user_data = ("user@gmail.com", "user")
 data = {
@@ -92,12 +94,22 @@ data = {
 }
 
 
+@allure.feature('Changing data in user resume')
 def test_change_data():
-    session = requests.Session()
-    session.post(url="http://localhost:8080/RabotyNET/login",
-                 auth=user_data)
-    session.get("http://localhost:8080/RabotyNET")
-    tmp = {"X-XSRF-TOKEN": session.cookies.get_dict()['XSRF-TOKEN'], 'content-type': 'application/json'}
-    change = session.put('http://localhost:8080/RabotyNET/pdf/updatePDF', json=data, headers=tmp)
+    """Changing data in user resume """
+    with allure.step('Start session'):
+        session = requests.Session()
 
-    print(change.status_code)
+    with allure.step('Login'):
+        session.post("http://localhost:8080/RabotyNET/login",
+                     auth=user_data)
+
+    with allure.step('Get cookies'):
+        session.get("http://localhost:8080/RabotyNET")
+        cookies = {"X-XSRF-TOKEN": session.cookies.get_dict()['XSRF-TOKEN']}
+
+    with allure.step('Changing data'):
+        change = session.put('http://localhost:8080/RabotyNET/pdf/updatePDF', json=data, headers=cookies)
+
+    with allure.step('Check result'):
+        assert change.status_code == 200
