@@ -1,6 +1,5 @@
-
 def test_api_admin_companies_presence(app):
-    app.authentication('login', 'admin@gmail.com', 'admin')
+    app.authentication('admin@gmail.com', 'admin')
     data = {"user": {"userId": 1, "login": "admin@gmail.com",
                      "password": "$2a$10$E2.PwtnpF2p6aB3NFM3Qo.TarTYsaiWD0yTZ7qY1U3K.ybKxNvCku", "enabled": "true"},
             "company": {"companyId": 1, "name": "SoftServe", "edrpou": "23456742",
@@ -189,10 +188,8 @@ def test_api_admin_companies_presence(app):
                         "claims": []}, "title": "None", "description": "tgrhh"}
 
     app.session.get(url="http://localhost:8080/RabotyNET/users/1")
-    tmp = {"X-XSRF-TOKEN": app.session.cookies.get_dict()['XSRF-TOKEN'],
-           "XSRF-TOKEN": app.session.cookies.get_dict()['XSRF-TOKEN']}
 
-    response = app.session.post(url='http://localhost:8080/RabotyNET/claims/create', json=data, headers=tmp)
+    app.post('claims/create', data)
+    response = app.get('claims/byCompany/1')
 
-    assert response.status_code == 200, "Wrong status code"
-
+    assert response.json()[0]['title'] == 'None'

@@ -31,4 +31,3 @@ def test_api_admin_unblock_co(app):
 
     assert response.status_code == 200, "Wrong status code"
     assert 'APPROVED' == response.json()[0]['status']
-

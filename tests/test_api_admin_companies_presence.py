@@ -1,4 +1,3 @@
-
 def test_api_admin_companies_presence(app):
     app.authentication('login', 'admin@gmail.com', 'admin')
 
