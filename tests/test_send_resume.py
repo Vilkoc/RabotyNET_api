@@ -106,10 +106,11 @@ def test_send_resume():
 
     with allure.step('Get cookies'):
         session.get("http://localhost:8080/RabotyNET")
-        tmp = {"X-XSRF-TOKEN": session.cookies.get_dict()['XSRF-TOKEN']}
+        cookies = {"X-XSRF-TOKEN": session.cookies.get_dict()['XSRF-TOKEN']}
 
     with allure.step('Sending resume'):
-        send_resume = session.post('http://localhost:8080/RabotyNET/vacancies/sendResume/33', json=data, headers=tmp)
+        send_resume = session.post('http://localhost:8080/RabotyNET/vacancies/sendResume/33', json=data,
+                                   headers=cookies)
 
     with allure.step('Check result'):
         assert send_resume.status_code == 200
