@@ -2,7 +2,7 @@ import pytest
 
 
 @pytest.skip(reason='skip due to: "https://ssu-jira.softserveinc.com/browse/RAB-86"')
-def test_api_admin_companies_presence(app):
+def test_api_admin_unblock_co(app):
     app.authentication('login', 'admin@gmail.com', 'admin')
     data = {'companyId': 3, 'name': 'ValSoft', 'edrpou': '63964221', 'description': 'Third company',
             'website': 'www.valsoft.com', 'status': 'APPROVED',
