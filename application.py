@@ -11,10 +11,10 @@ class Application():
     def __init__(self):
         self.session = requests.Session()
 
-    def authentication(self, url, login, password):
-        request = self.session.post(url, auth=(login, password))
+    def authentication(self, login, password):
+        request = self.session.post(MAIN_URL+'login', auth=(login, password))
         if request.status_code == 200:
-            return self.session
+            return request
         raise Exception("Status code isn't 200")
 
     def get(self, endpoint, data='', headers=HEADERS):

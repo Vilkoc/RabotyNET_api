@@ -24,7 +24,7 @@ def test_login(app, user, password, expected):
     assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get('http://localhost:8080/RabotyNET/logout')
 
-# @pytest.mark.skip
+@pytest.mark.skip
 def test_sign_up_begin(app):
     data_sent = {
       "login": USERNAME_SIGNUP,
@@ -38,7 +38,8 @@ def test_sign_up_begin(app):
     data_received = response.json()
     assert data_received['login'] == data_sent['login'], "Wrong username"
 
-# @pytest.mark.skip
+@pytest.mark.skip
+def test_sign_up_end(app):
     # session = requests.Session()
     data = {'token': TOKEN}
     change_varification_link(USERNAME_SIGNUP)
@@ -49,4 +50,12 @@ def test_sign_up_begin(app):
     assert response.status_code == 200, "Wrong status code"
     data_received = response.json()
     print(data_received)
+    request = app.authentication(USERNAME_SIGNUP, PASSWORD)
+    assert request.status_code == 200
+    print(request.text)
 
+
+def test_others(app):
+    l = app.authentication('cowner@gmail.com', 'cowner')
+    r = app.get('companies/my')
+    print(r.text,  l.text)
