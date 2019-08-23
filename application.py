@@ -14,6 +14,9 @@ class Application():
     def authentication(self, login, password):
         request = self.session.post(MAIN_URL+'login', auth=(login, password))
         if request.status_code == 200:
+            self.get('')
+            self.session.headers.update({"X-XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN'],
+                                         "XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN']})
             return request
         raise Exception("Status code isn't 200")
 
