@@ -56,7 +56,8 @@ def test_sign_up_end(app):
     print(request.text)
 
 
-def test_others(app):
+@pytest.mark.skip
+def test_others_Roma(app):
     # l = app.authentication('cowner@gmail.com', 'cowner')
     # r = app.get('companies/my')
     # print(r.text,  l.text)
@@ -262,8 +263,23 @@ def test_others(app):
     pprint(app.session.cookies.get_dict())
     response = app.post('claims/create', data)
     pprint(app.session.cookies.get_dict())
+    assert response.status_code == 200, "Wrong status code"
     response = app.get('claims/byCompany/1')
     print('==== 2 ===')
     pprint(response.text)
 
     assert response.status_code == 200, "Wrong status code"
+
+
+def test_others_Nazar(app):
+    app.authentication('user@gmail.com', 'user')
+
+    data = {"resumeId":200,"position":"Junior","skills":[{"skillId":3,"title":"Linux","description":"Good skill","printPdf":True},{"skillId":4,"title":"Angular","description":"Some experience","printPdf":True},{"skillId":5,"title":"Html","description":"Some experience","printPdf":True}],"jobs":[{"jobId":4,"position":"Junior","begin":"2006-10-08","end":"2009-10-04","companyName":"SoftServe","description":"Junior Java Developer","printPdf":True},{"jobId":5,"position":"Senior","begin":"2010-04-08","end":"2014-11-04","companyName":"InventorSoft","description":"Senior Java Developer","printPdf":True},{"jobId":3,"position":"Middle","begin":"2008-03-08","end":"2005-07-04","companyName":"ValSoft","description":"Middle Java developer","printPdf":True}],"education":{"educationId":2,"degree":"Master","school":"KPI","specialty":"Software Engineer","graduation":2009},"person":{"userId":3,"firstName":"Denys","lastName":"Ohorodnik","birthday":"1999-06-04","contact":{"contactId":1,"email":"den.ohorodnik@gmail.com","phoneNumber":"+380973999060"},"address":{"addressId":1,"country":"Ukraine","city":"Chernivtsi","street":"Holovna","building":"20","zipCode":58000},"user":{"userId":3,"login":"user@gmail.com","password":"$2a$10$t31PsVNWl8eaWr9/gPwKKeX.4Q2grl12wmiRrN9fEZDMlMGHwA92m","enabled":True}},"reviewed":False,"vacancies":[]}
+
+    pprint(app.session.cookies.get_dict())
+    request = app.put('pdf/updatePDF', data)
+    print('==== 2 ===', request.status_code, request.text)
+    pprint(request.json())
+    assert request.status_code == 200, "Wrong status code"
+
+    assert request.status_code == 200, "Wrong status code"
