@@ -1,6 +1,3 @@
-import pytest
-import requests
-from pprint import pprint
 
 def test_api_admin_companies_presence(app):
     app.authentication('login', 'admin@gmail.com', 'admin')
@@ -197,9 +194,5 @@ def test_api_admin_companies_presence(app):
 
     response = app.session.post(url='http://localhost:8080/RabotyNET/claims/create', json=data, headers=tmp)
 
-    # print(app.session.headers)
-    # response = app.post('claims/create', data=data)
-    #
-
     assert response.status_code == 200, "Wrong status code"
-    # assert 'SoftServe' == response.json()[0]['name']
+
