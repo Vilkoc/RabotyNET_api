@@ -24,6 +24,7 @@ def test_login(app, user, password, expected):
     assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get('http://localhost:8080/RabotyNET/logout')
 
+# @pytest.mark.skip
 def test_sign_up_begin(app):
     data_sent = {
       "login": USERNAME_SIGNUP,
@@ -37,10 +38,10 @@ def test_sign_up_begin(app):
     data_received = response.json()
     assert data_received['login'] == data_sent['login'], "Wrong username"
 
-@pytest.mark.skip
-def test_sign_up_end(app):
+# @pytest.mark.skip
     # session = requests.Session()
     data = {'token': TOKEN}
+    change_varification_link(USERNAME_SIGNUP)
 
     response = app.get('users/auth/confirm', data=data)
 
@@ -49,21 +50,3 @@ def test_sign_up_end(app):
     data_received = response.json()
     print(data_received)
 
-def test_sign_up_end1(app):
-    session = app.session
-    # data_sent = {"token": TOKEN}
-    data_sent = "token=" + TOKEN
-    headers = {'content-type': 'application/json'}
-
-    # response = session.get('http://localhost:8080/RabotyNET/users/auth/confirm', data=json.dumps(data_sent), headers=headers)
-    response = session.get('http://localhost:8080/RabotyNET/users/auth/confirm', params=data_sent)
-
-    print(response.text)
-    assert response.status_code == 200, "Wrong status code"
-    data_received = response.json()
-    print(data_received)
-
-
-def test_1(app):
-    # app.
-    pass

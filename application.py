@@ -18,8 +18,8 @@ class Application():
         raise Exception("Status code isn't 200")
 
     def get(self, endpoint, data='', headers=HEADERS):
-        converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL+endpoint, params=converted_data, headers=headers)
+        # converted_data = json.dumps(data)
+        request = self.session.get(MAIN_URL+endpoint, params=data, headers=headers)
         return request
 
     def post(self, endpoint, data='', headers=HEADERS):
