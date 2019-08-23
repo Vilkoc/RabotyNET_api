@@ -14,6 +14,7 @@ class Application():
     def authentication(self, endpoint, login, password):
         request = self.session.post(MAIN_URL+endpoint, auth=(login, password))
         if request.status_code == 200:
+            self.session.headers.update({'XSRF-TOKEN': request.cookies['XSRF-TOKEN']})
             return self.session
         raise Exception("Status code isn't 200")
 
@@ -22,10 +23,6 @@ class Application():
         request = self.session.get(MAIN_URL+endpoint, data=converted_data)
         return request
 
-    def post(self, endpoint, data='', headers=HEADERS):
-        converted_data = json.dumps(data)
-        request = self.session.post(MAIN_URL+endpoint, data=converted_data, headers=headers)
-        return request
 
     def put(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
@@ -36,3 +33,6 @@ class Application():
         converted_data = json.dumps(data)
         request = self.session.get(MAIN_URL+endpoint, data=converted_data, headers=headers)
         return request
+
+    def sesssion(self, url, data, auth):
+        return self.session.post(self,url=url, data=data, auth=auth)
