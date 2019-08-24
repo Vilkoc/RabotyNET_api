@@ -19,7 +19,7 @@ def test_login(app, user, password, expected):
     doesn't use application method, to check auth step by step"""
     session = app.session
     response = session.post(LOGIN_URL, auth=(user, password))
-    with allure.step("Check status code 200")
+    with allure.step("Check status code 200"):
         assert response.status_code == 200, "Wrong status code"
     data = response.json()
     assert data['username'] == user, "Wrong username"
@@ -27,28 +27,27 @@ def test_login(app, user, password, expected):
     session.get(LOGOUT_URL)
 
 # @pytest.mark.skip
-@allure.story('Sign Up')
-@allure.feature('Begin')
+@allure.feature('Sign Up')
+@allure.story('Begin')
 def test_sign_up_begin(app):
     """ some doc string"""
     app.post(USER_REGISTER_URL, data=REGISGER_DATA)
-    with allure.step("Check status code 200")
-        assert app.request.status_code == 200, "Wrong status code"
+    app.check_200()
     data_received = app.request.json()
     assert data_received['login'] == REGISGER_DATA['login'], "Wrong username"
 
 # @pytest.mark.skip
-@allure.story('Sign Up')
-@allure.feature('End')
+@allure.feature('Sign Up')
+@allure.story('End')
 def test_sign_up_end(app):
     """ some doc string"""
     data = {'token': TOKEN}
     change_varification_link(REGISGER_DATA['login'])
     app.get(USER_CONFIRM_EMAIL_URL, data=data)
-    with allure.step("Check status code 200")
+    with allure.step("Check status code 200"):
         assert app.request.status_code == 200, "Wrong status code"
     request = app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
-    with allure.step("Check status code 200")
+    with allure.step("Check status code 200"):
         assert request.status_code == 200
 
 
