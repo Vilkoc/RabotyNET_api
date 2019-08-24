@@ -1,5 +1,4 @@
-""" Testcase for sign in and sign up """
-
+""" Test case for sign in and sign up """
 import pytest
 import allure
 from data_tests.auth import REGISGER_DATA, TOKEN
@@ -12,7 +11,7 @@ from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_UR
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
     ('user@gmail.com', 'user', 'ROLE_USER'),
     ('cowner@gmail.com', 'cowner', 'ROLE_COWNER')
-    ])
+])
 def test_login(app, user, password, expected):
     """ Test for authenticate and authorize user.
     doesn't use application method, to check auth step by step"""
@@ -23,9 +22,10 @@ def test_login(app, user, password, expected):
     data = response.json()
     with allure.step("Check if username is correct"):
         assert data['username'] == user, "Wrong username"
-    with allure.step("Check if user autorized correctly"):
+    with allure.step("Check if user authorized correctly"):
         assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get(LOGOUT_URL)
+
 
 @allure.feature('Sign Up')
 def test_sign_up_begin(app):
@@ -36,6 +36,7 @@ def test_sign_up_begin(app):
     with allure.step("Check if username is correct"):
         assert data_received['login'] == REGISGER_DATA['login'], "Wrong username"
 
+
 @allure.feature('Sign Up')
 def test_sign_up_end(app):
     """ Finish to register user. From receive email"""
@@ -45,4 +46,3 @@ def test_sign_up_end(app):
     app.check_200()
     app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
     app.check_200()
-
