@@ -25,7 +25,7 @@ def test_login(app, user, password, expected):
     assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get(LOGOUT_URL)
 
-# @pytest.mark.skip
+#@pytest.mark.skip
 def test_sign_up_begin(app):
     """ some doc string"""
     app.post(USER_REGISTER_URL, data=REGISGER_DATA)
