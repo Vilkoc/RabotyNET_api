@@ -1,13 +1,22 @@
 """ User Profile test"""
-
-import pytest
-from data_tests.auth import REGISGER_DATA, TOKEN
-from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_URL
+from base import USER_PROFILE_URL, USER_URL
 import allure
-from utilities.db import change_varification_link, wait_user_update
 from credentials import Credentials
+from data_tests.user_data import updated_data
 
-@allure.feature('Sign In')
-def test_user_profile(app):
-    response = app.authentication(*Credentials['USER'])
-    assert response.status_code == 200, "Wrong status code"
+@allure.feature('Getting user data')
+def test_user_profile_get(app):
+    with allure.step('Sign in and get user profile info'):
+        app.authentication(*Credentials['USER'])
+        response_after_get = app.get(USER_PROFILE_URL)
+        assert response_after_get.status_code == 200, "Wrong status code"
+
+
+@allure.feature('Updating user data')
+def test_user_profile_update(app):
+    with allure.step('Sign in and update user profile'):
+        app.authentication(*Credentials['USER'])
+
+        response_after_put = app.put(USER_URL, data=updated_data)
+        assert response_after_put.status_code == 200, "Wrong status code"
+

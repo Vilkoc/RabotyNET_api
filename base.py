@@ -8,3 +8,6 @@ LOGOUT_URL = BASE_URL + 'logout'
 USER_REGISTER_URL = BASE_URL + 'users/auth'
 USER_CONFIRM_EMAIL_URL = BASE_URL + 'users/auth/confirm'
 
+# User profile
+USER_URL = BASE_URL + 'people'
+USER_PROFILE_URL = USER_URL + '/3'
