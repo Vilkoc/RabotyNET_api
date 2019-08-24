@@ -1,9 +1,5 @@
+.venv/
+.pytest_cache/
 .idea/
-data_tests/
-results/
-tests/.pytest_cache
+reports/
 tests/__init__
-
-
-
-
