@@ -1,4 +1,4 @@
-TOKEN = "3e83667c-c59c-4fda-aa7a-a47346a3cd6a"
+TOKEN = {'token': "3e83667c-c59c-4fda-aa7a-a47346a3cd6a"}
 
 REGISGER_DATA = {
     "login": 'rabotynet.test@gmail.com',

@@ -48,4 +48,4 @@ class Application():
 
     def check_200(self):
         with allure.step("Check if status code equal 200"):
-            assert self.request.status_code == 200
+            assert self.request.status_code == 200, "Wrong status code"
