@@ -1,6 +1,7 @@
 .venv/
-.idea/
 .pytest_cache/
+.idea/
+reports/
 .git/
 .idea/workspace.xml
 

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9b46b03-b8c4-4966-b927-bc9300e81a03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_tests/admin_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_delete_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_update_company_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/cowner_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/cowner_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/user_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api_admin_companies_presence.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api_admin_companies_presence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api_admin_create_claim.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api_admin_create_claim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api_admin_unblock_co.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api_admin_unblock_co.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ShevaCo</find>
+      <find>true</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Nataly" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Stas" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in tests">
+    <configuration name="pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/xfgtndxfyr.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_delete_company.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_delete_company.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_example.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" />
+      <item itemvalue="Python tests.pytest in test_delete_company.py" />
+      <item itemvalue="Python tests.pytest in test_example.py" />
+      <item itemvalue="Python tests.pytest in test_update_company_name.py" />
+      <item itemvalue="Python tests.pytest in tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in tests" />
+        <item itemvalue="Python tests.pytest in test_update_company_name.py" />
+        <item itemvalue="Python tests.pytest in test_delete_company.py" />
+        <item itemvalue="Python tests.pytest in test_example.py" />
+        <item itemvalue="Python tests.pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="" />
+      <created>1566491064117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566491064117</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 20m 40s.xml">
+      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 21m 24s.xml">
+      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 22m 28s.xml">
+      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_example_py - 2019.08.24 at 13h 40m 26s.xml">
+      <configuration name="pytest in test_example.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 46m 56s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 47m 03s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_delete_company_py - 2019.08.24 at 13h 48m 27s.xml">
+      <configuration name="pytest in test_delete_company.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_update_company_name_py - 2019.08.24 at 13h 48m 33s.xml">
+      <configuration name="pytest in test_update_company_name.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 56m 29s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 57m 12s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+  </component>
+</project>

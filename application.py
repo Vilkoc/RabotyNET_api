@@ -1,7 +1,9 @@
 import requests
 import json
+import allure
 
-MAIN_URL = 'http://localhost:8080/RabotyNET/'
+from base import LOGIN_URL, BASE_URL
+
 HEADERS = {'content-type': 'application/json'}
 
 
@@ -11,33 +13,33 @@ class Application():
     def __init__(self):
         self.session = requests.Session()
 
-    def authentication(self, login, password):
-        request = self.session.post(MAIN_URL + 'login', auth=(login, password))
+    def authentication(self, username, password):
+        request = self.session.post(LOGIN_URL, auth=(username, password))
         if request.status_code == 200:
-            self.get('')
+            self.get(BASE_URL)
             self.session.headers.update({"X-XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN']})
-            return request
-        raise Exception("Status code isn't 200")
+        self.request = request
+        return self.request
 
-    def get(self, endpoint, data='', ):
-        converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL + endpoint, data=converted_data)
-        return request
+    def get(self, endpoint, data='', headers=HEADERS):
+        self.request = self.session.get(endpoint, params=data, headers=headers)
+        return self.request
 
     def post(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
-        request = self.session.post(MAIN_URL + endpoint, data=converted_data, headers=headers)
-        return request
+        self.request = self.session.post(endpoint, data=converted_data, headers=headers)
+        return self.request
 
     def put(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL + endpoint, data=converted_data, headers=headers)
-        return request
+        self.request = self.session.put(endpoint, data=converted_data, headers=headers)
+        return self.request
 
     def delete(self, endpoint, data='', headers=HEADERS):
         converted_data = json.dumps(data)
-        request = self.session.get(MAIN_URL + endpoint, data=converted_data, headers=headers)
-        return request
+        self.request = self.session.delete(endpoint, data=converted_data, headers=headers)
+        return self.request
 
-    def sesssion(self, url, data, auth):
-        return self.session.post(self, url=url, data=data, auth=auth)
+    def check_200(self):
+        with allure.step("Check if status code equal 200"):
+            assert self.request.status_code == 200, "Wrong status code"

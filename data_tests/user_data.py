@@ -1,27 +1,8 @@
-user_data_rab_19 = {
-    'FIRST_NAME': 'Andrew',
-    'LAST_NAME': 'Stuart',
-    'BIRTHDAY': ('07', '04', '1999'),
-    'EMAIL': 'a@chnu.edu.ua',
-    'PHONE': '+380971465477',
-    'COUNTRY': 'Ukraine',
-    'CITY': 'Chernivtsi',
-    'STREET': 'Holovna',
-    'BUILDING': '555',
-    'APARTMENT': '14',
-    'ZIP_CODE': '78741'
-}
+updated_data = {'userId': 3, 'firstName': 'Andrew', 'lastName': 'Stuart', 'birthday': '1974-06-04',
+                'contact': {'contactId': 1, 'email': 'a@chnu.edu.ua', 'phoneNumber': '+15128325555'},
+                'address': {'addressId': 1, 'country': 'USA', 'city': 'Austin', 'street': 'Hobby Horse',
+                            'building': '14',
+                            'zipCode': 78421}, 'user': {'userId': 3, 'login': 'user@gmail.com',
+                                                        'password': '$2a$10$t31PsVNWl8eaWr9/gPwKKeX.4Q2grl12wmiRrN9fEZDMlMGHwA92m',
+                                                        'enabled': 'true'}}
 
-user_data_rab_26 = {
-    'FIRST_NAME': 'Andrew1',
-    'LAST_NAME': '$tuart',
-    'BIRTHDAY': ('03', '09', '1814'),
-    'EMAIL': '@yandex.sucks@',
-    'PHONE': '+999999999',
-    'COUNTRY': 'USA6@',
-    'CITY': 'Austin-98',
-    'STREET': "'FT1&u- h",
-    'BUILDING': '7B 4-',
-    'APARTMENT': '14-Q',
-    'ZIP_CODE': '787414'
-}

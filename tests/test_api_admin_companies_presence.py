@@ -1,9 +1,15 @@
-def test_api_admin_companies_presence(app):
-    app.authentication('login', 'admin@gmail.com', 'admin')
+""" This module allows you to get all companies """
+import allure
+from base import ALL_COMPANIES_URL
 
-    response = app.get('companies/all')
-    print(response.json()[0])
-    assert response.status_code == 200, "Wrong status code"
-    assert 'SoftServe' == response.json()[0]['name']
-    assert 'InventorSoft' == response.json()[1]['name']
-    assert 'ValSoft' == response.json()[2]['name']
+
+def test_api_admin_companies_presence(app):
+    """ Test that get all companies"""
+    with allure.step("Login"):
+        app.authentication('admin@gmail.com', 'admin')
+    with allure.step('Check if companies present'):
+        response = app.get(ALL_COMPANIES_URL)
+        assert 'SoftServe' == response.json()[0]['name']
+        assert 'InventorSoft' == response.json()[1]['name']
+        assert 'ValSoft' == response.json()[2]['name']
+    app.check_200()
