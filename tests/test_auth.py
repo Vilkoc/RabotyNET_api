@@ -1,4 +1,4 @@
-""" Important doc string"""
+""" Testcase for sign in and sign up """
 
 import pytest
 from data_tests.auth import REGISGER_DATA, TOKEN
@@ -6,8 +6,8 @@ from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_UR
 import allure
 from utilities.db import change_varification_link, wait_user_update
 
-@pytest.mark.skip
-@allure.feature('Sign In')
+# @pytest.mark.skip
+@allure.story('Sign In')
 @pytest.mark.parametrize('user, password, expected', [
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
     ('user@gmail.com', 'user', 'ROLE_USER'),
@@ -19,29 +19,37 @@ def test_login(app, user, password, expected):
     doesn't use application method, to check auth step by step"""
     session = app.session
     response = session.post(LOGIN_URL, auth=(user, password))
-    assert response.status_code == 200, "Wrong status code"
+    with allure.step("Check status code 200")
+        assert response.status_code == 200, "Wrong status code"
     data = response.json()
     assert data['username'] == user, "Wrong username"
     assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get(LOGOUT_URL)
 
 # @pytest.mark.skip
+@allure.story('Sign Up')
+@allure.feature('Begin')
 def test_sign_up_begin(app):
     """ some doc string"""
     app.post(USER_REGISTER_URL, data=REGISGER_DATA)
-    assert app.request.status_code == 200, "Wrong status code"
+    with allure.step("Check status code 200")
+        assert app.request.status_code == 200, "Wrong status code"
     data_received = app.request.json()
     assert data_received['login'] == REGISGER_DATA['login'], "Wrong username"
 
 # @pytest.mark.skip
+@allure.story('Sign Up')
+@allure.feature('End')
 def test_sign_up_end(app):
     """ some doc string"""
     data = {'token': TOKEN}
     change_varification_link(REGISGER_DATA['login'])
     app.get(USER_CONFIRM_EMAIL_URL, data=data)
-    assert app.request.status_code == 200, "Wrong status code"
+    with allure.step("Check status code 200")
+        assert app.request.status_code == 200, "Wrong status code"
     request = app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
-    assert request.status_code == 200
+    with allure.step("Check status code 200")
+        assert request.status_code == 200
 
 
 # @pytest.mark.skip
