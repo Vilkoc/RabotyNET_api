@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/23b67ddc-f790-463e-bb2e-f65f4f3fdb6e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/243d5589-283c-422f-96d0-a05371d65c24-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/38a2e054-508f-49d1-bfb3-ddb608efad7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/47c66f12-11f4-4faa-bde5-b9c99ec5d70e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/b5482875-573e-4a64-9ebf-d78e30dbeb96-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/c04fa6a4-0ca3-4b5f-8c44-c5200559aa1b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tests/user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/user_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,10 +28,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="132">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_user_profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="e#25#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="323">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#82#95#0" expanded="true" />
@@ -67,14 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-              <folding>
-                <element signature="e#42#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-42">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -91,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -181,20 +172,21 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/base.py" />
         <option value="$PROJECT_DIR$/tests/test_auth.py" />
+        <option value="$PROJECT_DIR$/tests/test_user_profile.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="865" />
-    <option name="width" value="1045" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,10 +208,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -234,8 +228,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in tests">
-    <configuration name="pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_user_profile.py">
+    <configuration name="pytest for test_user_profile.test_user_profile_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,10 +238,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/xfgtndxfyr.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_user_profile.test_user_profile_get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_delete_company.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -259,27 +254,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_delete_company.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="RabotyNET_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_example.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,6 +270,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
@@ -307,6 +289,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_user_profile.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_user_profile.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -319,6 +317,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
@@ -327,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_user_profile.py" />
+        <item itemvalue="Python tests.pytest for test_user_profile.test_user_profile_get" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_update_company_name.py" />
         <item itemvalue="Python tests.pytest in test_delete_company.py" />
-        <item itemvalue="Python tests.pytest in test_example.py" />
-        <item itemvalue="Python tests.pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" />
       </list>
     </recent_temporary>
   </component>
@@ -345,50 +344,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566491064117</updated>
+      <workItem from="1566646050661" duration="2381000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 20m 40s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_user_profile_test_user_profile_get - 2019.08.24 at 14h 46m 17s.xml">
+      <configuration name="pytest for test_user_profile.test_user_profile_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 21m 24s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_user_profile_test_user_profile_get - 2019.08.24 at 14h 46m 50s.xml">
+      <configuration name="pytest for test_user_profile.test_user_profile_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 22m 28s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_user_profile_test_user_profile_get - 2019.08.24 at 14h 47m 10s.xml">
+      <configuration name="pytest for test_user_profile.test_user_profile_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_example_py - 2019.08.24 at 13h 40m 26s.xml">
-      <configuration name="pytest in test_example.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_user_profile_test_user_profile_get - 2019.08.24 at 14h 47m 31s.xml">
+      <configuration name="pytest for test_user_profile.test_user_profile_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 46m 56s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_for_test_user_profile_test_user_profile_get - 2019.08.24 at 14h 47m 58s.xml">
+      <configuration name="pytest for test_user_profile.test_user_profile_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 47m 03s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_test_user_profile_py - 2019.08.24 at 14h 48m 23s.xml">
+      <configuration name="pytest in test_user_profile.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_delete_company_py - 2019.08.24 at 13h 48m 27s.xml">
-      <configuration name="pytest in test_delete_company.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_user_profile_py - 2019.08.24 at 14h 48m 59s.xml">
+      <configuration name="pytest in test_user_profile.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_update_company_name_py - 2019.08.24 at 13h 48m 33s.xml">
-      <configuration name="pytest in test_update_company_name.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_user_profile_py - 2019.08.24 at 14h 51m 20s.xml">
+      <configuration name="pytest in test_user_profile.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 56m 29s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_test_user_profile_py - 2019.08.24 at 14h 52m 38s.xml">
+      <configuration name="pytest in test_user_profile.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 57m 12s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_test_user_profile_py - 2019.08.24 at 15h 01m 09s.xml">
+      <configuration name="pytest in test_user_profile.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2381000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43267778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51768035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,12 +402,21 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.15417255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RabotyNET_api$pytest_in_test_user_profile_py.coverage" NAME="pytest in test_user_profile.py Coverage Results" MODIFIED="1566648063836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/RabotyNET_api$pytest_for_test_user_profile_test_user_profile_get.coverage" NAME="pytest for test_user_profile.test_user_profile_get Coverage Results" MODIFIED="1566647271928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
@@ -413,26 +427,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/MY.py" />
-    <entry file="file://$PROJECT_DIR$/tests/xfgtndxfyr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/xfgtndxfyr.py" />
     <entry file="file://$PROJECT_DIR$/utilities/del_from_db.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="6" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_login.py" />
     <entry file="file://$PROJECT_DIR$/tests/backup.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -449,13 +448,6 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -482,56 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_tests/auth.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_tests/cowner_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <element signature="e#29#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_example.py" />
     <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -544,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="323">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#82#95#0" expanded="true" />
@@ -559,19 +502,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_tests/cowner_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_tests/auth.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="-42">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
-            <element signature="e#42#55#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_user_profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#25#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
