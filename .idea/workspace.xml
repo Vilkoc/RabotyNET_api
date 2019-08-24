@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/update_company_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_tests/cowner_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/cowner_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_delete_company.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_delete_company.py" afterDir="false" />
-    </list>
+    <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +64,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="214">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+              <folding>
+                <element signature="e#29#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,11 +90,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/update_company_name.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#56#69#0" expanded="true" />
               </folding>
@@ -217,8 +215,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in update_company_name.py">
-    <configuration name="pytest for test_update_company_name.test_update_company_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_example.py">
+    <configuration name="pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,8 +227,8 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_update_company_name.test_update_company_name&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/xfgtndxfyr.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_delete_company.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -245,6 +243,21 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_delete_company.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_example.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="RabotyNET_api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_example.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -263,7 +276,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,32 +287,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/update_company_name.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in xfgtndxfyr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="RabotyNET_api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/xfgtndxfyr.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in update_company_name.py" />
-        <item itemvalue="Python tests.pytest in test_delete_company.py" />
-        <item itemvalue="Python tests.pytest in xfgtndxfyr.py" />
+        <item itemvalue="Python tests.pytest in test_example.py" />
         <item itemvalue="Python tests.pytest in test_update_company_name.py" />
-        <item itemvalue="Python tests.pytest for test_update_company_name.test_update_company_name" />
+        <item itemvalue="Python tests.pytest in test_delete_company.py" />
+        <item itemvalue="Python tests.pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" />
+        <item itemvalue="Python tests.pytest in test_update_company_name.py" />
       </list>
     </recent_temporary>
   </component>
@@ -317,9 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 06m 46s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 06m 50s.xml">
       <configuration name="pytest in update_company_name.py" configurationId="tests" />
     </history-entry>
@@ -347,6 +342,9 @@
     <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 22m 28s.xml">
       <configuration name="pytest in update_company_name.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_example_py - 2019.08.24 at 13h 40m 26s.xml">
+      <configuration name="pytest in test_example.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -357,13 +355,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23903818" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042432815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4059406" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27015558" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -481,23 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#82#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -515,12 +496,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/update_company_name.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#56#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="e#29#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

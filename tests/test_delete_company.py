@@ -16,5 +16,5 @@ def test_delete_company(app):
         app.delete(DELETING_OF_COMPANY)
     with allure.step("Checking the absence of the company"):
         app.get(COMPANY_EXISTS_URL)
-        assert app.request.status_code == 200
         assert app.request.text == "false"
+    app.check_200()

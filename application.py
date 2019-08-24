@@ -6,6 +6,7 @@ from base import LOGIN_URL, BASE_URL
 
 HEADERS = {'content-type': 'application/json'}
 
+
 class Application():
     """The parent class for all tests"""
 
@@ -22,7 +23,6 @@ class Application():
         return self.request
 
     def get(self, endpoint, data='', headers=HEADERS):
-        # converted_data = json.dumps(data)
         self.request = self.session.get(endpoint, params=data, headers=headers)
         return self.request
 
@@ -40,11 +40,6 @@ class Application():
         converted_data = json.dumps(data)
         self.request = self.session.delete(endpoint, data=converted_data, headers=headers)
         return self.request
-
-    def debug_info(self):
-        print(self.request.status_code, '\n', self.request.text)
-        from pprint import pprint
-        pprint(self.request.json())
 
     def check_200(self):
         with allure.step("Check if status code equal 200"):

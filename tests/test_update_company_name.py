@@ -14,4 +14,4 @@ def test_update_company_name(app):
         app.put(UPDATE_COMPANY_URL, data=UPDATE_COMPANY_NAME_DATA)
     with allure.step("Check the result"):
         assert app.request.json()["name"] == UPDATED_NAME
-        assert app.request.status_code == 200
+    app.check_200()
