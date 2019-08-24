@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/23b67ddc-f790-463e-bb2e-f65f4f3fdb6e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/243d5589-283c-422f-96d0-a05371d65c24-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/38a2e054-508f-49d1-bfb3-ddb608efad7b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/47c66f12-11f4-4faa-bde5-b9c99ec5d70e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/b5482875-573e-4a64-9ebf-d78e30dbeb96-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/c04fa6a4-0ca3-4b5f-8c44-c5200559aa1b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/user_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -49,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#82#95#0" expanded="true" />
               </folding>
@@ -60,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="148">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
               </folding>
@@ -70,10 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -90,18 +109,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_tests/auth.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="e#56#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -166,12 +173,13 @@
         <option value="$PROJECT_DIR$/tests/jjj.py" />
         <option value="$PROJECT_DIR$/tests/xfgtndxfyr.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/base.py" />
         <option value="$PROJECT_DIR$/data_tests/cowner_data.py" />
         <option value="$PROJECT_DIR$/tests/update_company_name.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/tests/test_update_company_name.py" />
         <option value="$PROJECT_DIR$/tests/test_delete_company.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/base.py" />
         <option value="$PROJECT_DIR$/tests/test_auth.py" />
       </list>
     </option>
@@ -193,11 +201,6 @@
             <path>
               <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
-              <item name="data_tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_update_company_name.py">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -324,9 +327,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_update_company_name.py" />
         <item itemvalue="Python tests.pytest in test_delete_company.py" />
-        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_example.py" />
         <item itemvalue="Python tests.pytest in C:/Users/Nataliya/Desktop/пари/ATQC/API/RabotyNET_api/tests/xfgtndxfyr.py" />
       </list>
@@ -346,12 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 18m 56s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 20m 24s.xml">
-      <configuration name="pytest in update_company_name.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_update_company_name_py - 2019.08.24 at 13h 20m 40s.xml">
       <configuration name="pytest in update_company_name.py" configurationId="tests" />
     </history-entry>
@@ -376,6 +373,12 @@
     <history-entry file="pytest_in_test_update_company_name_py - 2019.08.24 at 13h 48m 33s.xml">
       <configuration name="pytest in test_update_company_name.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 56m 29s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_tests - 2019.08.24 at 13h 57m 12s.xml">
+      <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -385,13 +388,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51768035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51768035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3903819" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15417255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -492,7 +495,7 @@
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -519,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -549,17 +545,31 @@
     <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#82#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="148">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="e#42#55#0" expanded="true" />
           </folding>

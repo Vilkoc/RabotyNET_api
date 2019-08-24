@@ -42,7 +42,6 @@ def test_sign_up_end(app):
     """ Finish to register user. From receive email"""
     change_varification_link(REGISGER_DATA['login'])
     app.get(USER_CONFIRM_EMAIL_URL, data=TOKEN)
-    app.debug_info()
     app.check_200()
     app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
     app.check_200()
