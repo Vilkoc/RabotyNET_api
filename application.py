@@ -1,5 +1,7 @@
 import requests
 import json
+import allure
+
 from base import LOGIN_URL, BASE_URL
 
 HEADERS = {'content-type': 'application/json'}
@@ -11,11 +13,12 @@ class Application():
         self.session = requests.Session()
 
     def authentication(self, username, password):
-        self.request = self.session.post(LOGIN_URL, auth=(username, password))
-        if self.request.status_code == 200:
+        request = self.session.post(LOGIN_URL, auth=(username, password))
+        if request.status_code == 200:
             self.get(BASE_URL)
             self.session.headers.update({"X-XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN'],
                                          "XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN']})
+        self.request = request
         return self.request
 
     def get(self, endpoint, data='', headers=HEADERS):
@@ -42,3 +45,7 @@ class Application():
         print(self.request.status_code, '\n', self.request.text)
         from pprint import pprint
         pprint(self.request.json())
+
+    def check_200(self):
+        with allure.step("Check if status code equal 200"):
+            assert self.request.status_code == 200, "Wrong status code"

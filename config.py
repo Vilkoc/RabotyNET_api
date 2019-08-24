@@ -1,4 +1,5 @@
-TIMEOUT = 30
+TIMEOUT = 5
+
 URL = 'http://localhost:4200'
 
 DB_FILE = 'backup.sql'
