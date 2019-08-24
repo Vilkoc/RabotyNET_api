@@ -1,12 +1,12 @@
 """ Testcase for sign in and sign up """
 
 import pytest
-from data_tests.auth import REGISGER_DATA, TOKEN
-from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_URL
 import allure
-from utilities.db import change_varification_link, wait_user_update
+from data_tests.auth import REGISGER_DATA, TOKEN
+from utilities.db import change_varification_link
+from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_URL
 
-# @pytest.mark.skip
+
 @allure.story('Sign In')
 @pytest.mark.parametrize('user, password, expected', [
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
@@ -14,8 +14,7 @@ from utilities.db import change_varification_link, wait_user_update
     ('cowner@gmail.com', 'cowner', 'ROLE_COWNER')
     ])
 def test_login(app, user, password, expected):
-    """ BAD EXAMPLE
-    Test for authenticate and authorize user.
+    """ Test for authenticate and authorize user.
     doesn't use application method, to check auth step by step"""
     session = app.session
     response = session.post(LOGIN_URL, auth=(user, password))
