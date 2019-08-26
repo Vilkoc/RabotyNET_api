@@ -4,6 +4,7 @@
 reports/
 .idea/workspace.xml
 tests/__init__
+allure-results/
 
 
 

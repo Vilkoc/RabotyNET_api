@@ -1,6 +1,7 @@
 """This module allows you to delete company and check if the company is absent"""
 import allure
 from base import COMPANY_EXISTS_URL, DELETING_OF_COMPANY
+from credentials import Credentials
 
 
 @allure.feature('Deleting a company')
@@ -8,7 +9,7 @@ def test_delete_company(app):
     """Deleting of the company"""
 
     with allure.step("Login"):
-        app.authentication("cowner@gmail.com", "cowner")
+        app.authentication(*Credentials['COWNER'])
     with allure.step("Checking the presence of the company"):
         app.get(COMPANY_EXISTS_URL)
         assert app.request.text == "true"
@@ -17,4 +18,4 @@ def test_delete_company(app):
     with allure.step("Checking the absence of the company"):
         app.get(COMPANY_EXISTS_URL)
         assert app.request.text == "false"
-    app.check_200()
+        assert app.request.status_code == 200

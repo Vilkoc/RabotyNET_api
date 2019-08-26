@@ -1,4 +1,5 @@
-""" Test case for sign in and sign up """
+""" Testcase for sign in and sign up """
+
 import pytest
 import allure
 from data_tests.auth import REGISTER_DATA, TOKEN
@@ -7,23 +8,23 @@ from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_UR
 
 
 @allure.story('Sign In')
-@pytest.mark.parametrize('user, password, expected', [
+@pytest.mark.parametrize('username, password, expected_role', [
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
     ('user@gmail.com', 'user', 'ROLE_USER'),
     ('cowner@gmail.com', 'cowner', 'ROLE_COWNER')
 ])
-def test_login(app, user, password, expected):
+def test_login(app, username, password, expected_role):
     """ Test for authenticate and authorize user.
     doesn't use application method, to check auth step by step"""
     session = app.session
-    response = session.post(LOGIN_URL, auth=(user, password))
+    response = session.post(LOGIN_URL, auth=(username, password))
     with allure.step("Check if status code equal 200"):
         assert response.status_code == 200, "Wrong status code"
     data = response.json()
     with allure.step("Check if username is correct"):
-        assert data['username'] == user, "Wrong username"
+        assert data['username'] == username, "Wrong username"
     with allure.step("Check if user authorized correctly"):
-        assert data['authorities'][0]['authority'] == expected, "Wrong user role"
+        assert data['authorities'][0]['authority'] == expected_role, "Wrong user role"
     session.get(LOGOUT_URL)
 
 

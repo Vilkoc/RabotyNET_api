@@ -24,3 +24,9 @@ RESUME_URL = BASE_URL + 'pdf/updatePDF'
 SEND_RESUME_URL = BASE_URL + 'vacancies/sendResume/34'
 GENERATE_RESUME = BASE_URL + 'pdf/createPdf/2&false'
 RESUME_DATA = BASE_URL + 'pdf'
+
+# Vacancies
+VACANCIES_URL = BASE_URL + 'vacancies'
+
+# Search
+SEARCH_VACANCY_URL = BASE_URL + 'searchVacancy'

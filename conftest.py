@@ -11,5 +11,6 @@ def prep_db(worker_id):
 
 @pytest.fixture(scope='function')
 def app():
+    """Creates instance of Application class"""
     app = Application()
     yield app
