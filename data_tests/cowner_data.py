@@ -71,7 +71,8 @@ UPDATE_COMPANY_NAME_DATA = {
             "requirements": [
                 {
                     "requirementId": 18,
-                    "description": "You are adept at writing unit tests and testable code, and working under distributed version control"
+                    "description": "You are adept at writing unit tests and testable code, "
+                                   "and working under distributed version control"
                 },
                 {
                     "requirementId": 17,

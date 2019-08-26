@@ -1,9 +1,11 @@
+"""This module contains method for getting an email"""
 import imaplib
 from time import sleep
 from config import SMTP_SERVER
 
 
 def get_link(login, password, subject):
+    """Getting an email"""
     mail = imaplib.IMAP4_SSL(SMTP_SERVER)
     mail.login(login, password)
     mail.select('inbox')
