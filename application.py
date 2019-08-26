@@ -1,3 +1,4 @@
+"""Wrapper for requests methods"""
 import requests
 import json
 import allure
@@ -14,6 +15,7 @@ class Application():
         self.session = requests.Session()
 
     def authentication(self, username, password):
+        """Login procedure followed token getting"""
         request = self.session.post(LOGIN_URL, auth=(username, password))
         if request.status_code == 200:
             self.get(BASE_URL)
@@ -23,20 +25,24 @@ class Application():
         return self.request
 
     def get(self, endpoint, data='', headers=HEADERS):
+        """Get method"""
         self.request = self.session.get(endpoint, params=data, headers=headers)
         return self.request
 
     def post(self, endpoint, data='', headers=HEADERS):
+        """Post method"""
         converted_data = json.dumps(data)
         self.request = self.session.post(endpoint, data=converted_data, headers=headers)
         return self.request
 
     def put(self, endpoint, data='', headers=HEADERS):
+        """Put method"""
         converted_data = json.dumps(data)
         self.request = self.session.put(endpoint, data=converted_data, headers=headers)
         return self.request
 
     def delete(self, endpoint, data='', headers=HEADERS):
+        """Delete method"""
         converted_data = json.dumps(data)
         self.request = self.session.delete(endpoint, data=converted_data, headers=headers)
         return self.request

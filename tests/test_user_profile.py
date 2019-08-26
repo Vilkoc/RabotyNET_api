@@ -11,8 +11,8 @@ def test_user_profile_get(app):
     with allure.step('Sign in and get user profile info'):
         app.authentication(*Credentials['USER'])
         app.get(USER_PROFILE_URL)
-        app.check_200()
-        #app.get(LOGOUT_URL)
+        assert app.request.status_code == 200, "Wrong status code"
+        app.get(LOGOUT_URL)
 
 @allure.feature('Updating user data')
 def test_user_profile_update(app):
@@ -20,6 +20,7 @@ def test_user_profile_update(app):
     with allure.step('Sign in and update user profile'):
         app.authentication(*Credentials['USER'])
         app.put(USER_URL, data=updated_data)
-        app.check_200()
-        #app.get(LOGOUT_URL)
+        assert app.request.status_code == 200, "Wrong status code"
+        app.get(LOGOUT_URL)
+
 
