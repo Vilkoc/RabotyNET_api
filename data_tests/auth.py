@@ -7,7 +7,7 @@ REGISGER_DATA = {
 }
 
 LOGIN = [
-        ('admin@gmail.com', 'admin', 'Сompanies'),
-        ('user@gmail.com', 'user', 'Create company'),
-        ('cowner@gmail.com', 'cowner', 'My companies')
-    ]
+    ('admin@gmail.com', 'admin', 'Сompanies'),
+    ('user@gmail.com', 'user', 'Create company'),
+    ('cowner@gmail.com', 'cowner', 'My companies')
+]

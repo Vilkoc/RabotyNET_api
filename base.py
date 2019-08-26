@@ -16,3 +16,7 @@ UPDATE_COMPANY_URL = BASE_URL + 'companies/update'
 # User profile
 USER_URL = BASE_URL + 'people'
 USER_PROFILE_URL = USER_URL + '/3'
+
+# User resume
+RESUME_URL = BASE_URL + 'pdf/updatePDF'
+SEND_RESUME_URL = BASE_URL + 'vacancies/sendResume/34'

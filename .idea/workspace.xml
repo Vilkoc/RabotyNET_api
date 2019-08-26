@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/RabotyNET_api.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
@@ -18,6 +19,25 @@
       <change beforePath="$PROJECT_DIR$/utilities/del_from_db.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/get_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/get_email.py" afterDir="false" />
+=======
+    <list default="true" id="6297fc39-aa81-4ef0-a706-fb2cf7ae71aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_tests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_tests/cowner_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_tests/user_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_delete_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_update_company_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_change_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_change_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_send_resume.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_send_resume.py" afterDir="false" />
+>>>>>>> origin/Nazarii
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +48,58 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/tests/test_change_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+              <folding>
+                <element signature="e#54#67#0" expanded="true" />
+>>>>>>> origin/Nazarii
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_send_resume.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#41#54#0" expanded="true" />
+              </folding>
+>>>>>>> origin/Nazarii
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="12" selection-end-column="17" />
+>>>>>>> origin/Nazarii
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -40,56 +108,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+        <entry file="file://$PROJECT_DIR$/data_tests/user_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
-          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="357">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#82#95#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="82">
+              <caret line="8" column="4" selection-start-line="8" selection-end-line="8" selection-end-column="11" />
+>>>>>>> origin/Nazarii
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="e#56#69#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/tests/test_user_profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="e#25#68#0" expanded="true" />
+>>>>>>> origin/Nazarii
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/utilities/db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
                 <element signature="e#48#63#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#82#95#0" expanded="true" />
+>>>>>>> origin/Nazarii
               </folding>
             </state>
           </provider>
@@ -98,6 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utilities/func.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="136">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
@@ -112,10 +184,15 @@
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="272">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+>>>>>>> origin/Nazarii
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,6 +210,8 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+=======
+>>>>>>> origin/Nazarii
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -190,8 +269,18 @@
         <option value="$PROJECT_DIR$/tests/jjj.py" />
         <option value="$PROJECT_DIR$/tests/xfgtndxfyr.py" />
         <option value="$PROJECT_DIR$/tests/update_company_name.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/tests/test_update_company_name.py" />
+        <option value="$PROJECT_DIR$/tests/test_delete_company.py" />
+        <option value="$PROJECT_DIR$/tests/test_auth.py" />
+>>>>>>> origin/Nazarii
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/test_change_data.py" />
         <option value="$PROJECT_DIR$/base.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/tests/test_auth.py" />
         <option value="$PROJECT_DIR$/tests/test_delete_company.py" />
         <option value="$PROJECT_DIR$/tests/test_update_company_name.py" />
@@ -203,6 +292,10 @@
         <option value="$PROJECT_DIR$/utilities/func.py" />
         <option value="$PROJECT_DIR$/utilities/get_email.py" />
         <option value="$PROJECT_DIR$/application.py" />
+=======
+        <option value="$PROJECT_DIR$/data_tests/user_data.py" />
+        <option value="$PROJECT_DIR$/tests/test_send_resume.py" />
+>>>>>>> origin/Nazarii
       </list>
     </option>
   </component>
@@ -211,6 +304,7 @@
     <option name="width" value="1045" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -224,6 +318,19 @@
               <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
+              <item name="data_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> origin/Nazarii
           </expand>
           <select />
         </subPane>
@@ -232,6 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/test_send_resume.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -246,6 +354,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.pytest in test_auth.py">
     <configuration name="pytest for test_delete_company.test_delete_company" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="RabotyNET_api" />
@@ -278,32 +387,50 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python tests.pytest in test_send_resume.py">
+    <configuration name="pytest in test_change_data.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+>>>>>>> origin/Nazarii
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Nazar\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_auth.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_delete_company.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_additionalArguments" value="&quot;--alluredir ../reports&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_change_data.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_send_resume.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+>>>>>>> origin/Nazarii
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Nazar\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_delete_company.py&quot;" />
+=======
+      <option name="_new_additionalArguments" value="&quot;--alluredir ../reports&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_send_resume.py&quot;" />
+>>>>>>> origin/Nazarii
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -332,17 +459,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--alluredir ../reports&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in test_change_data.py" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest in test_send_resume.py" />
+    </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python tests.pytest in test_auth.py" />
         <item itemvalue="Python tests.pytest for test_delete_company.test_delete_company" />
         <item itemvalue="Python tests.pytest for test_update_company_name.test_update_company_name" />
         <item itemvalue="Python tests.pytest in test_delete_company.py" />
+=======
+>>>>>>> origin/Nazarii
         <item itemvalue="Python tests.pytest in tests" />
       </list>
     </recent_temporary>
@@ -361,9 +496,10 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="pytest_in_test_delete_company_py - 2019.08.24 at 13h 48m 27s.xml">
       <configuration name="pytest in test_delete_company.py" configurationId="tests" />
-    </history-entry>
+=======
     <history-entry file="pytest_in_test_update_company_name_py - 2019.08.24 at 13h 48m 33s.xml">
       <configuration name="pytest in test_update_company_name.py" configurationId="tests" />
     </history-entry>
@@ -372,6 +508,28 @@
     </history-entry>
     <history-entry file="pytest_in_tests - 2019.08.24 at 13h 57m 12s.xml">
       <configuration name="pytest in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_change_data_py - 2019.08.24 at 16h 52m 36s.xml">
+      <configuration name="pytest in test_change_data.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_change_data_py - 2019.08.24 at 16h 53m 32s.xml">
+      <configuration name="pytest in test_change_data.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_change_data_py - 2019.08.24 at 16h 53m 49s.xml">
+      <configuration name="pytest in test_change_data.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_change_data_py - 2019.08.24 at 16h 55m 05s.xml">
+      <configuration name="pytest in test_change_data.py" configurationId="tests" />
+>>>>>>> origin/Nazarii
+    </history-entry>
+    <history-entry file="pytest_in_test_change_data_py - 2019.08.24 at 16h 58m 06s.xml">
+      <configuration name="pytest in test_change_data.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_send_resume_py - 2019.08.24 at 17h 03m 40s.xml">
+      <configuration name="pytest in test_send_resume.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_send_resume_py - 2019.08.24 at 17h 04m 40s.xml">
+      <configuration name="pytest in test_send_resume.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_delete_company_py - 2019.08.26 at 11h 36m 45s.xml">
       <configuration name="pytest in test_delete_company.py" configurationId="tests" />
@@ -393,21 +551,35 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16517857" />
+>>>>>>> origin/Nazarii
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042432815" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21276596" />
+>>>>>>> origin/Nazarii
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.427157" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15384616" />
+>>>>>>> origin/Nazarii
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,19 +590,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tests/MY.py" />
     <entry file="file://$PROJECT_DIR$/tests/xfgtndxfyr.py" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/utilities/del_from_db.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> origin/Nazarii
     <entry file="file://$PROJECT_DIR$/tests/test_login.py" />
     <entry file="file://$PROJECT_DIR$/tests/backup.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9214">
@@ -439,12 +612,17 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/models.py">
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/sessions.py" />
+    <entry file="file://$PROJECT_DIR$/utilities/db.py">
+>>>>>>> origin/Nazarii
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9656">
           <caret line="601" column="13" selection-start-line="601" selection-start-column="13" selection-end-line="601" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -457,12 +635,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_example.py" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/models.py" />
+    <entry file="file://$PROJECT_DIR$/utilities/get_email.py">
+>>>>>>> origin/Nazarii
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tests/test_user_profile.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -494,20 +677,54 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#82#95#0" expanded="true" />
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/backup.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_tests/auth.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_example.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding>
+            <element signature="e#42#55#0" expanded="true" />
+>>>>>>> origin/Nazarii
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+=======
+    <entry file="file://$PROJECT_DIR$/data_tests/cowner_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_update_company_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+>>>>>>> origin/Nazarii
           <folding>
             <element signature="e#56#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/utilities/del_from_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -521,10 +738,29 @@
           <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
             <element signature="e#48#63#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/credentials.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_delete_company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+>>>>>>> origin/Nazarii
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -545,10 +781,46 @@
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/tests/test_user_profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#25#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> origin/Nazarii
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/credentials.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -568,15 +840,39 @@
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="e#42#55#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/data_tests/user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="4" selection-start-line="8" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_change_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#54#67#0" expanded="true" />
+>>>>>>> origin/Nazarii
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/tests/test_send_resume.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#41#54#0" expanded="true" />
+>>>>>>> origin/Nazarii
           </folding>
         </state>
       </provider>
