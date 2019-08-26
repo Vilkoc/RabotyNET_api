@@ -12,25 +12,25 @@ UPDATE_DATA = {'userId': 3, 'firstName': 'Andrew', 'lastName': 'Stuart', 'birthd
 
 USER_RESUME = {
     "resumeId": 2,
-    "position": "Middle Developer",
+    "position": "Junior Developer",
     "skills": [
         {
-            "skillId": 3,
-            "title": "Linux",
-            "description": "Good skill",
-            "printPdf": "true"
+            "skillId": 5,
+            "title": "Html",
+            "description": "Some experience",
+            "printPdf": True
         },
         {
             "skillId": 4,
             "title": "Angular",
             "description": "Some experience",
-            "printPdf": "true"
+            "printPdf": True
         },
         {
-            "skillId": 5,
-            "title": "Html",
-            "description": "Some experience",
-            "printPdf": "true"
+            "skillId": 3,
+            "title": "Linux",
+            "description": "Good skill",
+            "printPdf": True
         }
     ],
     "jobs": [
@@ -41,16 +41,7 @@ USER_RESUME = {
             "end": "2009-10-04",
             "companyName": "SoftServe",
             "description": "Junior Java Developer",
-            "printPdf": "true"
-        },
-        {
-            "jobId": 5,
-            "position": "Senior",
-            "begin": "2010-04-08",
-            "end": "2014-11-04",
-            "companyName": "InventorSoft",
-            "description": "Senior Java Developer",
-            "printPdf": "true"
+            "printPdf": True
         },
         {
             "jobId": 3,
@@ -59,7 +50,16 @@ USER_RESUME = {
             "end": "2005-07-04",
             "companyName": "ValSoft",
             "description": "Middle Java developer",
-            "printPdf": "true"
+            "printPdf": True
+        },
+        {
+            "jobId": 5,
+            "position": "Senior",
+            "begin": "2010-04-08",
+            "end": "2014-11-04",
+            "companyName": "InventorSoft",
+            "description": "Senior Java Developer",
+            "printPdf": True
         }
     ],
     "education": {
@@ -91,11 +91,13 @@ USER_RESUME = {
             "userId": 3,
             "login": "user@gmail.com",
             "password": "$2a$10$t31PsVNWl8eaWr9/gPwKKeX.4Q2grl12wmiRrN9fEZDMlMGHwA92m",
-            "enabled": "true"
+            "enabled": True
         }
     },
-    "reviewed": "false",
+    "reviewed": False,
     "vacancies": [
 
     ]
 }
+
+POSITION = 'Junior Developer'

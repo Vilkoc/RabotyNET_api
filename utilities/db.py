@@ -45,6 +45,3 @@ def wait_user_update(user, timeout=TIMEOUT):
             if result == True:
                 return
     raise Exception("No enougth elements")
-
-
-
