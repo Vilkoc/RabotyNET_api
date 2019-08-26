@@ -18,5 +18,5 @@ def test_send_resume(app):
     with allure.step('Sending resume'):
         app.post(SEND_RESUME_URL, data=resume)
 
-    with allure.step('Checking result'):
+    with allure.step('Checking result++++++++++++++++++++'):
         assert app.request.status_code == 200
