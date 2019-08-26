@@ -2,7 +2,7 @@
 
 import pytest
 import allure
-from data_tests.auth import REGISGER_DATA, TOKEN
+from data_tests.auth import REGISGER_DATA, TOKEN, LOGIN
 from utilities.db import change_varification_link
 from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_URL
 
@@ -18,12 +18,11 @@ def test_login(app, username, password, expected_role):
     doesn't use application method, to check auth step by step"""
     session = app.session
     response = session.post(LOGIN_URL, auth=(username, password))
-    with allure.step("Check if status code equal 200"):
-        assert response.status_code == 200, "Wrong status code"
+    app.check_200()
     data = response.json()
     with allure.step("Check if username is correct"):
         assert data['username'] == username, "Wrong username"
-    with allure.step("Check if user autorized correctly"):
+    with allure.step("Check if user authorized correctly"):
         assert data['authorities'][0]['authority'] == expected_role, "Wrong user role"
     session.get(LOGOUT_URL)
 
