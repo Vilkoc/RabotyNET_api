@@ -1,8 +1,7 @@
 """Wrapper for requests methods"""
-import requests
 import json
 import allure
-
+import requests
 from base import LOGIN_URL, BASE_URL
 
 HEADERS = {'content-type': 'application/json'}

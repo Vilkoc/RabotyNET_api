@@ -1,8 +1,8 @@
 """ User Profile test"""
-from base import USER_PROFILE_URL, USER_URL, LOGOUT_URL
 import allure
+from base import USER_PROFILE_URL, USER_URL, LOGOUT_URL
 from credentials import Credentials
-from data_tests.user_data import updated_data
+from data_tests.user_data import UPDATE_DATA
 
 
 @allure.feature('Getting user data')
@@ -20,6 +20,6 @@ def test_user_profile_update(app):
     """Checking if user profile info is updated"""
     with allure.step('Sign in and update user profile'):
         app.authentication(*Credentials['USER'])
-        app.put(USER_URL, data=updated_data)
+        app.put(USER_URL, data=UPDATE_DATA)
         assert app.request.status_code == 200, "Wrong status code"
         app.get(LOGOUT_URL)
