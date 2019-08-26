@@ -2,7 +2,7 @@
 
 import pytest
 import allure
-from data_tests.auth import REGISGER_DATA, TOKEN, LOGIN
+from data_tests.auth import REGISTER_DATA, TOKEN
 from utilities.db import change_varification_link
 from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_URL
 
@@ -30,19 +30,19 @@ def test_login(app, username, password, expected_role):
 @allure.feature('Sign Up')
 def test_sign_up_begin(app):
     """ Start to register user. Up to send email """
-    app.post(USER_REGISTER_URL, data=REGISGER_DATA)
+    app.post(USER_REGISTER_URL, data=REGISTER_DATA)
     app.check_200()
     data_received = app.request.json()
     with allure.step("Check if username is correct"):
-        assert data_received['login'] == REGISGER_DATA['login'], "Wrong username"
+        assert data_received['login'] == REGISTER_DATA['login'], "Wrong username"
 
 
 @allure.feature('Sign Up')
 def test_sign_up_end(app):
     """ Finish to register user. From receive email"""
-    change_varification_link(REGISGER_DATA['login'])
+    change_varification_link(REGISTER_DATA['login'])
     app.get(USER_CONFIRM_EMAIL_URL, data=TOKEN)
     app.debug_info()
     app.check_200()
-    app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
+    app.authentication(REGISTER_DATA['login'], REGISTER_DATA['password'])
     app.check_200()
