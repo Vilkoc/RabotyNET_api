@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92447ef7-9c56-49af-8d2b-ebabf45bdaa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RabotyNET_api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/get_vacancies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/post_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/guest_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/guest_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/get_vacancies.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/get_vacancies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/post_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/post_search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/post_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#50#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +34,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/get_vacancies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#43#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_tests/guest_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -44,8 +55,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -53,10 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="408">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,15 +96,40 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/base.py" />
+        <option value="$PROJECT_DIR$/tests/111111111111111111.py" />
+        <option value="$PROJECT_DIR$/data_tests/guest_data.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/tests/post_search.py" />
         <option value="$PROJECT_DIR$/tests/get_vacancies.py" />
+        <option value="$PROJECT_DIR$/tests/post_search.py" />
       </list>
     </option>
   </component>
@@ -86,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,16 +153,22 @@
             <path>
               <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
+              <item name="data_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pytest/RabotyNET_pytest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -196,8 +258,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in get_vacancies.py" />
-        <item itemvalue="Python tests.pytest for get_vacancies.test_vacancies" />
         <item itemvalue="Python tests.pytest in post_search.py" />
+        <item itemvalue="Python tests.pytest for get_vacancies.test_vacancies" />
         <item itemvalue="Python tests.pytest for post_search.test_search" />
       </list>
     </recent_temporary>
@@ -216,52 +278,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_post_search_py - 2019.08.23 at 19h 22m 16s.xml">
-      <configuration name="pytest in post_search.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_post_search_py - 2019.08.23 at 19h 22m 33s.xml">
-      <configuration name="pytest in post_search.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_post_search_py - 2019.08.23 at 19h 23m 24s.xml">
-      <configuration name="pytest in post_search.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_get_vacancies_py - 2019.08.23 at 19h 23m 54s.xml">
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 10m 50s.xml">
       <configuration name="pytest in get_vacancies.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.23 at 19h 28m 07s.xml">
-      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.23 at 19h 29m 11s.xml">
-      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.23 at 19h 31m 30s.xml">
-      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.23 at 19h 33m 04s.xml">
-      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_get_vacancies_py - 2019.08.23 at 19h 33m 29s.xml">
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 11m 47s.xml">
       <configuration name="pytest in get_vacancies.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_get_vacancies_py - 2019.08.23 at 19h 34m 06s.xml">
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 11m 52s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 11m 55s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 11m 58s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 12m 01s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 12m 03s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.26 at 13h 12m 09s.xml">
+      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 13m 20s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 13m 22s.xml">
       <configuration name="pytest in get_vacancies.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -271,37 +332,81 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/111111111111111111.py" />
+    <entry file="file://$PROJECT_DIR$/utilities/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="408">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/get_vacancies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/post_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#50#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_tests/guest_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

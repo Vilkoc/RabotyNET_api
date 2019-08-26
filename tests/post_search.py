@@ -1,19 +1,18 @@
-import requests
-import json
+"""This module allows searching for  vacancies"""
 import allure
-
-data = {"direction": "asc", "firstResultNumber": 0, "resultsOnPage": 3, "searchDocument": "vacancies",
-        "searchParameter": "city", "searchSort": "position", "searchText": "chernivtsi"}
-
-HEADERS = {'content-type': 'application/json'}
+from base import SEARCH_VACANCY_URL
+from data_tests.guest_data import SEARCH_VACANCY_DATA
+from data_tests.guest_data import HEADERS
 
 
 @allure.feature("Search")
-def test_search():
+def test_search(app):
     """testing providing search"""
-    session = requests.Session()
-    response = session.post(url='http://localhost:8080/RabotyNET/searchVacancy', data=json.dumps(data), headers=HEADERS)
+    with allure.step('Providing search for vacancy'):
+        app.post(SEARCH_VACANCY_URL, data=SEARCH_VACANCY_DATA, headers=HEADERS)
 
-    print(response.json())
-    assert response.status_code == 200
-    assert response.json()['searchVacancyDtos'][0]['city'] == 'Chernivtsi'
+    with allure.step('Cheking status code'):
+        assert app.request.status_code == 200
+
+    with allure.step('Cheking resulit'):
+        assert app.request.json()['searchVacancyDtos'][0]['city'] == 'Chernivtsi'
