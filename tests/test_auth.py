@@ -12,7 +12,7 @@ from base import LOGIN_URL, LOGOUT_URL, USER_CONFIRM_EMAIL_URL, USER_REGISTER_UR
     ('admin@gmail.com', 'admin', 'ROLE_ADMIN'),
     ('user@gmail.com', 'user', 'ROLE_USER'),
     ('cowner@gmail.com', 'cowner', 'ROLE_COWNER')
-    ])
+])
 def test_login(app, user, password, expected):
     """ Test for authenticate and authorize user.
     doesn't use application method, to check auth step by step"""
@@ -27,6 +27,7 @@ def test_login(app, user, password, expected):
         assert data['authorities'][0]['authority'] == expected, "Wrong user role"
     session.get(LOGOUT_URL)
 
+
 @allure.feature('Sign Up')
 def test_sign_up_begin(app):
     """ Start to register user. Up to send email """
@@ -35,6 +36,7 @@ def test_sign_up_begin(app):
     data_received = app.request.json()
     with allure.step("Check if username is correct"):
         assert data_received['login'] == REGISGER_DATA['login'], "Wrong username"
+
 
 @allure.feature('Sign Up')
 def test_sign_up_end(app):
@@ -45,4 +47,3 @@ def test_sign_up_end(app):
     app.check_200()
     app.authentication(REGISGER_DATA['login'], REGISGER_DATA['password'])
     app.check_200()
-
