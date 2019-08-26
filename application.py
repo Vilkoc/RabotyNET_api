@@ -1,7 +1,5 @@
-import requests
 import json
-import allure
-
+import requests
 from base import LOGIN_URL, BASE_URL
 
 HEADERS = {'content-type': 'application/json'}
@@ -40,7 +38,3 @@ class Application():
         converted_data = json.dumps(data)
         self.request = self.session.delete(endpoint, data=converted_data, headers=headers)
         return self.request
-
-    def check_200(self):
-        with allure.step("Check if status code equal 200"):
-            assert self.request.status_code == 200, "Wrong status code"

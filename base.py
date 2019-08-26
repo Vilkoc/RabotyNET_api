@@ -1,3 +1,5 @@
+"""This module contains URL's for project requests"""
+
 BASE_URL = 'http://localhost:8080/RabotyNET/'
 
 # Login

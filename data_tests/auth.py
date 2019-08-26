@@ -1,6 +1,8 @@
+"""This module contains authentication data"""
+
 TOKEN = {'token': "3e83667c-c59c-4fda-aa7a-a47346a3cd6a"}
 
-REGISGER_DATA = {
+REGISTER_DATA = {
     "login": 'rabotynet.test@gmail.com',
     "matchingPassword": 'Qdrwbj!23',
     "password": 'Qdrwbj!23'
