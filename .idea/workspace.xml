@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="7deb02a6-ac66-46eb-b2ab-639f0e0a797f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/RabotyNET_api.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
@@ -38,6 +39,17 @@
       <change beforePath="$PROJECT_DIR$/tests/test_user_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_profile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/db.py" afterDir="false" />
 >>>>>>> origin/Nazarii
+=======
+    <list default="true" id="92447ef7-9c56-49af-8d2b-ebabf45bdaa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_tests/guest_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_tests/guest_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/get_vacancies.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/get_vacancies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/post_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/post_search.py" afterDir="false" />
+>>>>>>> origin/Myshko
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +58,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
@@ -63,11 +76,22 @@
               <folding>
                 <element signature="e#54#67#0" expanded="true" />
 >>>>>>> origin/Nazarii
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/post_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#50#63#0" expanded="true" />
+>>>>>>> origin/Myshko
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
@@ -89,10 +113,21 @@
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
 >>>>>>> origin/Nazarii
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/get_vacancies.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#43#56#0" expanded="true" />
+              </folding>
+>>>>>>> origin/Myshko
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application.py">
@@ -163,11 +198,19 @@
             <state>
               <caret column="43" selection-start-column="43" selection-end-column="43" />
 >>>>>>> origin/Nazarii
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_tests/guest_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> origin/Myshko
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/utilities/db.py">
@@ -209,6 +252,14 @@
 =======
                 <element signature="e#0#13#0" expanded="true" />
 >>>>>>> origin/Nazarii
+=======
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+>>>>>>> origin/Myshko
               </folding>
             </state>
           </provider>
@@ -216,16 +267,24 @@
       </file>
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/utilities/func.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
             <state relative-caret-position="136">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+=======
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> origin/Myshko
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/utilities/get_email.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-34">
@@ -243,10 +302,17 @@
             <state>
               <caret column="33" selection-start-column="33" selection-end-column="33" />
 >>>>>>> origin/Nazarii
+=======
+        <entry file="file://$PROJECT_DIR$/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+>>>>>>> origin/Myshko
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
@@ -263,11 +329,21 @@
 >>>>>>> origin/Nazarii
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+>>>>>>> origin/Myshko
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/credentials.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -275,6 +351,8 @@
       </file>
 =======
 >>>>>>> origin/Nazarii
+=======
+>>>>>>> origin/Myshko
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -284,6 +362,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ShevaCo</find>
@@ -310,6 +389,10 @@
         </map>
       </branch-storage>
     </favorite-branches>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> origin/Myshko
     <excluded-from-favorite>
       <branch-storage>
         <map>
@@ -327,6 +410,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/tests/test_login.py" />
         <option value="$PROJECT_DIR$/tests/MY.py" />
         <option value="$PROJECT_DIR$/tests/jjj.py" />
@@ -384,12 +468,33 @@
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/base.py" />
+        <option value="$PROJECT_DIR$/tests/111111111111111111.py" />
+        <option value="$PROJECT_DIR$/data_tests/guest_data.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/get_vacancies.py" />
+        <option value="$PROJECT_DIR$/tests/post_search.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+>>>>>>> origin/Myshko
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> origin/Myshko
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -398,7 +503,10 @@
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/Myshko
             <path>
               <item name="RabotyNET_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
@@ -409,11 +517,15 @@
               <item name="RabotyNET_api" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
 >>>>>>> origin/Nazarii
+=======
+>>>>>>> origin/Myshko
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,6 +533,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/test_send_resume.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mkokutc\Desktop\Repos_API\RabotyNET_api\tests" />
+    </key>
+  </component>
+>>>>>>> origin/Myshko
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -435,8 +561,13 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.pytest in test_auth.py">
     <configuration name="pytest for test_delete_company.test_delete_company" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python tests.pytest in get_vacancies.py">
+    <configuration name="pytest for get_vacancies.test_vacancies" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/Myshko
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -447,11 +578,19 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;test_delete_company.test_delete_company&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_update_company_name.test_update_company_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;get_vacancies.test_vacancies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for post_search.test_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/Myshko
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,6 +601,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;test_update_company_name.test_update_company_name&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
@@ -518,6 +658,13 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_update_company_name.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;post_search.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in get_vacancies.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/Myshko
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -528,11 +675,19 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_update_company_name.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/get_vacancies.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in post_search.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/Myshko
       <module name="RabotyNET_api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -542,12 +697,18 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;--alluredir ../reports&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+=======
+      <option name="_new_additionalArguments" value="&quot;-rA&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/post_search.py&quot;" />
+>>>>>>> origin/Myshko
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python tests.pytest in test_change_data.py" />
       <item itemvalue="Python tests.pytest in test_send_resume.py" />
       <item itemvalue="Python tests.pytest in test_update_company_name.py" />
@@ -563,6 +724,19 @@
 =======
 >>>>>>> origin/Nazarii
         <item itemvalue="Python tests.pytest in tests" />
+=======
+      <item itemvalue="Python tests.pytest in get_vacancies.py" />
+      <item itemvalue="Python tests.pytest in post_search.py" />
+      <item itemvalue="Python tests.pytest for post_search.test_search" />
+      <item itemvalue="Python tests.pytest for get_vacancies.test_vacancies" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in get_vacancies.py" />
+        <item itemvalue="Python tests.pytest in post_search.py" />
+        <item itemvalue="Python tests.pytest for get_vacancies.test_vacancies" />
+        <item itemvalue="Python tests.pytest for post_search.test_search" />
+>>>>>>> origin/Myshko
       </list>
     </recent_temporary>
   </component>
@@ -571,15 +745,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="6297fc39-aa81-4ef0-a706-fb2cf7ae71aa" name="Default Changelist" comment="" />
       <created>1566491064117</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566491064117</updated>
+=======
+      <changelist id="92447ef7-9c56-49af-8d2b-ebabf45bdaa5" name="Default Changelist" comment="" />
+      <created>1566569250257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566569250257</updated>
+>>>>>>> origin/Myshko
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <history-entry file="pytest_in_test_delete_company_py - 2019.08.24 at 13h 48m 27s.xml">
@@ -837,10 +1020,72 @@
 >>>>>>> origin/Nazarii
           <folding>
             <element signature="e#82#95#0" expanded="true" />
+=======
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 10m 50s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 11m 47s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 11m 52s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 11m 55s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 11m 58s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 12m 01s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 12m 03s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_get_vacancies_test_vacancies - 2019.08.26 at 13h 12m 09s.xml">
+      <configuration name="pytest for get_vacancies.test_vacancies" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_post_search_py - 2019.08.26 at 13h 13m 20s.xml">
+      <configuration name="pytest in post_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_get_vacancies_py - 2019.08.26 at 13h 13m 22s.xml">
+      <configuration name="pytest in get_vacancies.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> origin/Myshko
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/utilities/del_from_db.py">
@@ -886,10 +1131,27 @@
 =======
             <element signature="e#25#38#0" expanded="true" />
 >>>>>>> origin/Nazarii
+=======
+    <entry file="file://$PROJECT_DIR$/tests/111111111111111111.py" />
+    <entry file="file://$PROJECT_DIR$/utilities/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+>>>>>>> origin/Myshko
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config.py">
@@ -954,11 +1216,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> origin/Myshko
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="50" selection-start-column="50" selection-end-column="50" />
         </state>
@@ -971,10 +1240,24 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
 >>>>>>> origin/Nazarii
+=======
+        <state relative-caret-position="442">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+>>>>>>> origin/Myshko
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/credentials.py">
@@ -986,10 +1269,19 @@
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/tests/get_vacancies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#43#56#0" expanded="true" />
+>>>>>>> origin/Myshko
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tests/test_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1018,10 +1310,19 @@
 =======
             <element signature="e#0#11#0" expanded="true" />
 >>>>>>> origin/Nazarii
+=======
+    <entry file="file://$PROJECT_DIR$/tests/post_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#50#63#0" expanded="true" />
+>>>>>>> origin/Myshko
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/application.py">
@@ -1045,6 +1346,12 @@
             <element signature="e#0#13#0" expanded="true" />
 >>>>>>> origin/Nazarii
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/data_tests/guest_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+>>>>>>> origin/Myshko
         </state>
       </provider>
     </entry>

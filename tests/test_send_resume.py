@@ -13,7 +13,6 @@ def test_send_resume(app):
         app.authentication(*Credentials['USER'])
 
     with allure.step('Sending resume'):
-        a=app.post(SEND_RESUME_URL, data=USER_RESUME)
-        print(a.text)
+        app.post(SEND_RESUME_URL, data=USER_RESUME)
     with allure.step('Checking result'):
         assert app.request.status_code == 200

@@ -18,8 +18,10 @@ class Application():
         request = self.session.post(LOGIN_URL, auth=(username, password))
         if request.status_code == 200:
             self.get(BASE_URL)
-            self.session.headers.update({"X-XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN'],
-                                         "XSRF-TOKEN": self.session.cookies.get_dict()['XSRF-TOKEN']})
+            self.session.headers.update({"X-XSRF-TOKEN":
+                                             self.session.cookies.get_dict()['XSRF-TOKEN'],
+                                         "XSRF-TOKEN":
+                                             self.session.cookies.get_dict()['XSRF-TOKEN']})
         self.request = request
         return self.request
 

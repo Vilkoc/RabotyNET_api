@@ -22,3 +22,9 @@ USER_PROFILE_URL = USER_URL + '/3'
 # User resume
 RESUME_URL = BASE_URL + 'pdf/updatePDF'
 SEND_RESUME_URL = BASE_URL + 'vacancies/sendResume/34'
+
+# Vacancies
+VACANCIES_URL = BASE_URL + 'vacancies'
+
+# Search
+SEARCH_VACANCY_URL = BASE_URL + 'searchVacancy'
