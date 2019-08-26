@@ -18,7 +18,8 @@ def test_login(app, username, password, expected_role):
     doesn't use application method, to check auth step by step"""
     session = app.session
     response = session.post(LOGIN_URL, auth=(username, password))
-    app.check_200()
+    with allure.step("Check if status code equal 200"):
+        assert response.status_code == 200, "Wrong status code"
     data = response.json()
     with allure.step("Check if username is correct"):
         assert data['username'] == username, "Wrong username"
@@ -42,7 +43,6 @@ def test_sign_up_end(app):
     """ Finish to register user. From receive email"""
     change_varification_link(REGISTER_DATA['login'])
     app.get(USER_CONFIRM_EMAIL_URL, data=TOKEN)
-    app.debug_info()
     app.check_200()
     app.authentication(REGISTER_DATA['login'], REGISTER_DATA['password'])
     app.check_200()
