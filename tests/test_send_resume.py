@@ -1,6 +1,6 @@
 """This module allows sending resume"""
 import allure
-impotr pytest
+import pytest
 from base import SEND_RESUME_URL, GENERATE_RESUME, RESUME_DATA
 from credentials import Credentials
 
