@@ -263,3 +263,15 @@ UNBLOCK_COMPANY_DATA = {'companyId': 3, 'name': 'ValSoft', 'edrpou': '63964221',
                         'user': {'userId': 2, 'login': 'cowner@gmail.com',
                                  'password': '$2a$10$DmeWO6UlY/m2QjJaxLGUzezqOotvJmpzbBmZGBr8o/HHeNUuCWcpK',
                                  'enabled': True}}
+
+ASSERT_BY_NAME = 'name'
+
+ASSERT_BY_TITLE = 'title'
+
+ASSERT_BY_STATUS = 'status'
+
+NAME_OF_COMPANIES = ('SoftServe', 'InventorSoft', 'ValSoft')
+
+CLAIM_TITLE = 'None'
+
+STATUS_OF_COMPANY = 'APPROVED'
