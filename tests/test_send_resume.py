@@ -1,10 +1,12 @@
 """This module allows sending resume"""
 import allure
+impotr pytest
 from base import SEND_RESUME_URL, GENERATE_RESUME, RESUME_DATA
 from credentials import Credentials
 
 
 @allure.feature('Send resume test')
+@pytest.mark.skip('Problems with the database')
 def test_send_resume(app):
     """Sending users resume"""
 
