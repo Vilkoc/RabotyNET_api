@@ -1,7 +1,7 @@
 """ This module allows you to get all companies """
 import allure
 from credentials import Credentials
-from base import ALL_COMPANIES_URL,
+from base import ALL_COMPANIES_URL
 from data_tests.admin_data import ASSERT_BY_NAME, NAME_OF_COMPANIES
 
 
