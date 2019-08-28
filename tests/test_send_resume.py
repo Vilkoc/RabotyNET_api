@@ -6,7 +6,6 @@ from credentials import Credentials
 
 
 @allure.feature('Send resume test')
-@pytest.mark.skip(reason='Problems with the database')
 def test_send_resume(app):
     """Sending users resume"""
 
