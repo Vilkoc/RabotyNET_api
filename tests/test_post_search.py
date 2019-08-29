@@ -7,8 +7,8 @@ from data_tests.guest_data import HEADERS
 
 
 @allure.feature("Search")
-@pytest.mark.skip(reason='Problems with the database')
-def search(app):
+# @pytest.mark.skip(reason='patamushto-because')
+def test_zsearch(app):
     """testing providing search"""
     with allure.step('Providing search for vacancy'):
         app.post(SEARCH_VACANCY_URL, data=SEARCH_VACANCY_DATA, headers=HEADERS)
