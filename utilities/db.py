@@ -53,4 +53,4 @@ def wait_user_update(user, timeout=TIMEOUT):
 def restart_tomcat():
     subprocess.call('shutdown.bat', shell=True, cwd=TOMCAT_PATH)
     time.sleep(TIMEOUT*4)
-    subprocess.Popen(TOMCAT_PATH + 'startup.bat', stdout=subprocess.PIPE, shell=True, cwd=TOMCAT_PATH)
+    subprocess.Popen('startup.bat', stdout=subprocess.PIPE, shell=True, cwd=TOMCAT_PATH)
