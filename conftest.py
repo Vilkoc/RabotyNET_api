@@ -10,7 +10,7 @@ def prep_db(worker_id):
     if worker_id == 'gw0' or worker_id == 'master':
         restart_tomcat()
         prepare_db()
-    sleep(20)
+    sleep(40)
 
 
 @pytest.fixture(scope='function')
